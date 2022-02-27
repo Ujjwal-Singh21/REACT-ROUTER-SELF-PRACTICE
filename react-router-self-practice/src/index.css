@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Extra Added */
+
+.primary-nav {
+  background-color: deeppink;
+  padding: 16px 32px;
+  text-align: left;
+}
+
+.primary-nav a {
+  text-decoration: none;
+  color: yellow;
+  width: 85px;
+  display: inline-block;
+  padding: 10px;
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: 0.4s;
+}
+
+/* nav a.active {
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+} */
+
+ .nav {
+  background-color: blue;
+  padding: 16px 32px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  width: 5px;
+  display: block;
+  padding: 0.1px;
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: 0.4s;
+}
+
+/* .secondary-nav {
+  background-color:aquamarine;
+  padding: 16px 32px;
+} */
+
+/* .user-nav {
+  background-color: rgb(159, 160, 95);
+ font-style: bold;
+ font-display: inherit;
+}  */
+
+a nav {
+  margin-right: 16px;
+}
+
+
+.userName {
+  color: darkblue ;
+  font-style: bold;
+}
+
+/* .secondary {
+  color: rgb(55, 20, 255) ;
+  font-weight: bolder;
+}
+
+.order {
+  color:rgb(220, 20, 130);
+  font-family: Arial, Helvetica, sans-serif;
+} */
