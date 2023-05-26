@@ -47,7 +47,7 @@ function App () {
           <Route
             path='about'
             element={
-              <React.Suspense fallback='Loading......'>
+              <React.Suspense fallback='DownLoading...... '>
                 <LazyAbout />
               </React.Suspense>
             }
@@ -62,7 +62,7 @@ function App () {
               </RequiredAuth>
             }
           />
-
+          
           <Route path='/logIn' element={<Login />} />
 
           <Route path='*' element={<NoMatch />} />

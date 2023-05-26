@@ -6,6 +6,7 @@ import { useLocation } from 'react-router-dom'
 function RequiredAuth ({ children }) {
   const auth = useAuth()
   const location = useLocation()
+  
   return (
     <div>
       {
